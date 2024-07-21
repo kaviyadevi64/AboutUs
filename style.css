@@ -1,0 +1,152 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Navbar Styles (if applicable) */
+
+/* About Us Section */
+#about-us {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+#about-us img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#about-us h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#about-us p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #b2744c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Mission Section */
+#mission {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+#mission h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#mission p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Our Company Section */
+#our-company {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+#our-company h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#our-company h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#our-company p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#our-company ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#our-company ul li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+#testimonials h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.testimonial cite {
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Footer Styles (if applicable) */
+
+/* Media Queries (for responsiveness) */
+@media (max-width: 768px) {
+  .col-lg-6,
+  .col-md-6 {
+    width: 100%;
+  }
+}
